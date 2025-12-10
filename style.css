@@ -1,10 +1,11 @@
+
 nav{
   padding:5px
 }
-nav a{
-  color:yellow;
+.contianer{
+  color:rgb(68, 0, 255);
   margin:0 10px 0 10px;
-  display:inline-block;
+  flex: 1;
   width:20%;
   text-align:center;
 }
@@ -24,12 +25,42 @@ nav a:hover{
 }
 /* Challenge 10: Change the background color to blue and the text to white for elements with an class of "banner" */
 .banner{
-  background-color:red;
-  color:yellow;
+  
+  color:rgb(229, 255, 0);
   text-align: center;
   }
-/* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
-.main{
-  color:blue;
-  font: size 20pt;;
+
+.logo{
+    color: yellow;
+    display: flex;
+    flex: 2;
+    border: solid;
+    margin-top: 1000px;
+    padding: 1cm;
+  }
+  
+#picture{
+  color: lightgreen;
 }
+
+.shanxi{
+  text-align: left;
+  flex: 1;
+}
+
+.beijing{
+  text-align: center;
+  flex: 1;
+}
+.buliding{
+  text-align: right;
+  flex: 1;
+}
+
+
+
+
+
+
+
+/* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
