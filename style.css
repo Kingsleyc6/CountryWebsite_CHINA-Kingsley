@@ -26,7 +26,7 @@ nav a:hover{
 /* Challenge 10: Change the background color to blue and the text to white for elements with an class of "banner" */
 .banner{
   
-  color:rgb(229, 255, 0);
+  color:rgb(255, 0, 0);
   text-align: center;
   }
 
