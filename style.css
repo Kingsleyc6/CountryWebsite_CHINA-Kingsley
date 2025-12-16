@@ -56,7 +56,15 @@ nav a:hover{
   text-align: right;
   flex: 1;
 }
-
+.Opening{
+  text-align: center;
+}
+.mycontainer{
+  color:yellow
+}
+.yourcontainer{
+  color: red;
+}
 
 
 
