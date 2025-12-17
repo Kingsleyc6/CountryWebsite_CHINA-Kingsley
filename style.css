@@ -63,8 +63,23 @@ nav a:hover{
 .mycontainer{
   color:yellow
 }
-.yourcontainer{
-  color: red;
+.history {
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.yourcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.yourcontainer div {
+  width: 60%;
+  margin: 50px;
+  padding: 10px;
+  
+  color:red;
 }
 .his{
   color:white;
@@ -84,6 +99,19 @@ nav a:hover{
   padding: 10px;
   text-align: center;  
   font-size: 20px;
+}
+
+.landmarks {
+  display: flex;
+  flex-direction: row;
+  color: red;
+}
+
+.landmarks div {
+  width: 20%;
+  margin: 10px;
+  padding: 50px;
+  text-align: center;  
 }
 
 
